@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Lexend', sans-serif;
+    
+    background-color: rgb(27, 28, 34);
+
+    color: white;
+}
+
+.container::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background:
+    radial-gradient(ellipse at 0% 85%, rgba(0,255,200,0.4), transparent 25%),
+    radial-gradient(ellipse at 0% 75%, rgba(0,150,255,0.4), transparent 45%);
+
+    filter: blur(120px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+     
+    height: 100%;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first {
+    opacity: 25%;
+    margin-top: 32px;
+    font-family: Lexend;
+    font-size: 0.60rem;
+    font-weight: 100;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 999px;
+   -webkit-box-shadow: 3px 6px 48px 1px rgba(56,101,166,0.37); 
+    box-shadow: 3px 6px 48px 1px rgba(56,101,166,0.37);
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+    align-items: center;
+}
+
+.second h1 {
+    font-family: Lexend;
+    font-size: 1.12rem;
+    font-weight: 700;
+}
+
+.second h2 {
+    font-family: Lexend;
+    font-size: 0.87rem;
+    font-weight: 100;    
+}
+
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 32px;
+
+    font-family: Lexend;
+    font-size: 0.87rem;
+    font-weight: 100;
+}
+
+.third a {
+    height: auto;
+    width: auto;
+
+    padding: 8px 16px 8px 16px ;
+    
+    background: rgba(217, 217, 217, 0.2);   /* transparence */
+    /* Refraction: 80 → blur élevé */
+    backdrop-filter: blur(20px) saturate(180%) hue-rotate(2deg);
+  
+    /* Depth: 20 → verre fin, fond très transparent */
+    background: rgba(255, 255, 255, 0.06);
+  
+    /* Frost: 4 → quasi aucun dépoli */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  
+    /* Light: -45°, 80% → reflet en haut à gauche */
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+
+    border-radius: 99px;
+
+    text-decoration: none;
+    color: white;
+
+}
