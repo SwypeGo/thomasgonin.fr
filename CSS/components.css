@@ -1,0 +1,51 @@
+.btn-primaire {
+    width: auto;
+    height: auto;
+    padding: 10px 16px 10px 16px;
+
+    color: var(--color-text-light);
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: var(--text-base);
+
+    background-color: var(--color-primary);
+    border-radius: var(--radius-xs);
+}
+
+.btn-secondaire {
+    width: auto;
+    height: auto;
+
+    font-family: 'Inter';
+    font-weight: 300;
+    
+    padding: 10px 16px 10px 16px;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: var(--radius-xs);
+}
+.btn-secondaire:hover {
+    width: auto;
+    height: auto;
+    padding: 10px 16px 10px 16px;
+    color: var(--color-text-light);
+    border: 1px solid var(--color-primary);
+    background-color: #2254d411;
+    border-radius: var(--radius-xs);
+}
+
+
+.btn-pill {
+    width: auto;
+    height: auto;
+    padding: 10px 16px 10px 16px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary) !important;
+    border-radius: var(--radius-pill) !important;
+}
+
+.btn-pill:hover {
+    background-color: var(--color-hover);
+}

@@ -1,0 +1,11 @@
+@import 'base.css';
+@import 'typographie.css';
+@import 'layout.css';
+@import 'components.css';
+@import 'animations.css';
+
+/* ── Pages ── */
+@import '/Pages/home.css';
+@import '/Pages/contact.css';
+@import '/Pages/servicePME.css';
+@import '/Pages/serviceIndependant.css';

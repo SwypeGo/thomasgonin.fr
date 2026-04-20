@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/Assets/fonts/InterVariableFont.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+
+  /* Couleurs */
+  --color-primary: #2255d4;
+  --color-hover: #1947B9;
+  --color-bg-dark: #1C1D24;
+  --color-bg-light: #ffffff;
+  --color-text-light: #ffffff;
+  --color-text-dark: #111111;
+  --color-text-muted: #888888;
+
+  /* Typographie */
+  --font-display: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Tailles */
+  --text-sm:   0.875rem;
+  --text-base: 1rem;    
+  --text-md:   1.25rem; 
+  --text-lg:   1.5rem;  
+  --text-xl:   2.25rem; 
+  --text-xxl:  3rem;    
+
+  /* Espacements */
+  --space-xs:  0.25rem;  /* 4px */
+  --space-sm:  0.5rem;   /* 8px */
+  --space-md:  1rem;     /* 16px */
+  --space-lg:  1.5rem;   /* 24px */
+  --space-xl:  7.5rem;   /* 120px */
+
+  /* Radius */
+  --radius-xs: 8px;
+  --radius-sm: 16px;
+  --radius-md: 24px;
+  --radius-lg: 40px;
+  --radius-pill: 999px;
+
+  /* Transition */
+  --transition: 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
